@@ -29,7 +29,8 @@ def getY(a, p, d):
 while robot.step(timestep) != -1:
 
     # write code to move the legs
-    
+    motorRPC.setPosition(getY(0.25,0,-0.6))
+    motorRPF.setPosition(getY(0.2,2,0.8))
     
     pass
     
